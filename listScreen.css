@@ -1,0 +1,21 @@
+table,
+td {
+  color: white;
+  width: 50%;
+  border: 1px solid white;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  font-size: large;
+}
+
+th {
+  border: 1px solid white;
+  font-size: x-large;
+  height: 4em;
+}
+
+img {
+  width: 8em;
+  height: 10em;
+}
