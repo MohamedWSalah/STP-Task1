@@ -1,21 +1,32 @@
-table,
+table {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  text-overflow: ellipsis;
+}
+
 td {
   color: white;
-  width: 50%;
   border: 1px solid white;
   border-collapse: collapse;
-  table-layout: fixed;
   text-align: center;
   font-size: large;
 }
 
 th {
+  color: white;
   border: 1px solid white;
-  font-size: x-large;
-  height: 4em;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  background-color: rgb(253, 62, 94) !important;
+}
+
+td:hover {
+  color: rgb(253, 62, 94) !important;
 }
 
 img {
-  width: 8em;
-  height: 10em;
+  height: 100%;
+  width: 100%;
 }
