@@ -1,6 +1,6 @@
-const image1 = '<img src="../Assets/AvengersEndgame.jpg" />';
-const image2 = '<img src="../Assets/DrStrange.jpg" />';
-const image3 = '<img src="../Assets/MoonKnight.jpg" />';
+const image1 = '<img src="./Assets/AvengersEndgame.jpg" />';
+const image2 = '<img src="./Assets/DrStrange.jpg" />';
+const image3 = '<img src="./Assets/MoonKnight.jpg" />';
 
 let movies = [
   { name: "Avengers Endgame", image: image1, votes: 7528 },
